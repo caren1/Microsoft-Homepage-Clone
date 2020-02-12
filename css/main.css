@@ -143,7 +143,7 @@ ul {
 /* CARBON */
 
 .carbon {
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     width: 100%;
     height: 350px;
     background: url('https://i.ibb.co/72cgtsz/carbon.jpg') no-repeat center center/cover;
@@ -156,8 +156,83 @@ ul {
 
 .carbon h2 {
     text-transform: uppercase;
+
 }
 
+/* SOCIAL SECTION */
+
+.follow {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 30px 0 30px;
+}
+
+.follow * {
+    margin-right: 5px;
+}
+
+/* LINKS */
+
+.links {
+    background: #f2f2f2;
+    color: #616161;
+    font-size: 12px;
+    padding: 35px 0;
+}
+
+.links-inner {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.links li {
+    line-height: 2.8;
+}
+
+/* FOOTER  */
+
+.footer {
+    background: #f2f2f2;
+    color: #616161;
+    font-size: 12px;
+    padding: 20px 0;
+}
+
+.footer-inner {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0 20px 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer div i {
+    margin-right: 10px;
+}
+
+.footer ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer li {
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
 
 /* UTILITY */
 
